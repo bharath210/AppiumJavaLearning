@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81370" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:51Z">
+  <suite name="Default suite" duration-ms="64692" started-at="2020-08-20T09:44:58Z" finished-at="2020-08-20T09:46:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81370" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:51Z">
-      <class name="com.udemydemo.navtiveapps.SwipeAction">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.udemydemo.navtiveapps.SwipeAction@553f17c]" name="launchApp" is-config="true" duration-ms="70728" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:40Z">
+    <test name="Default test" duration-ms="64692" started-at="2020-08-20T09:44:58Z" finished-at="2020-08-20T09:46:03Z">
+      <class name="com.udemydemo.navtiveapps.ScrollAction">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.udemydemo.navtiveapps.ScrollAction@4667ae56]" name="launchApp" is-config="true" duration-ms="57331" started-at="2020-08-20T09:44:59Z" finished-at="2020-08-20T09:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="test_swipe()[pri:0, instance:com.udemydemo.navtiveapps.SwipeAction@553f17c]" name="test_swipe" duration-ms="10522" started-at="2020-08-19T14:32:40Z" finished-at="2020-08-19T14:32:51Z">
+        <test-method status="PASS" signature="test_scroll()[pri:0, instance:com.udemydemo.navtiveapps.ScrollAction@4667ae56]" name="test_scroll" duration-ms="7329" started-at="2020-08-20T09:45:56Z" finished-at="2020-08-20T09:46:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_swipe -->
-      </class> <!-- com.udemydemo.navtiveapps.SwipeAction -->
+        </test-method> <!-- test_scroll -->
+      </class> <!-- com.udemydemo.navtiveapps.ScrollAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

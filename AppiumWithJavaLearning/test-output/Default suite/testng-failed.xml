@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.udemydemo.navtiveapps.Demo1">
+      <class name="com.udemydemo.navtiveapps.ScrollAction">
         <methods>
-          <include name="test_media"/>
+          <include name="test_scroll"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.udemydemo.navtiveapps.Demo1 -->
+      </class> <!-- com.udemydemo.navtiveapps.ScrollAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
