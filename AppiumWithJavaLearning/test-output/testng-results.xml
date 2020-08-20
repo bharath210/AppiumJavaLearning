@@ -2,82 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92640" started-at="2020-08-18T14:23:35Z" finished-at="2020-08-18T14:25:08Z">
+  <suite name="Default suite" duration-ms="81370" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92640" started-at="2020-08-18T14:23:35Z" finished-at="2020-08-18T14:25:08Z">
-      <class name="com.calculator.AppiumWithJavaLearning.CalculatorTest">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.calculator.AppiumWithJavaLearning.CalculatorTest@4667ae56]" name="launchApp" is-config="true" duration-ms="29262" started-at="2020-08-18T14:23:35Z" finished-at="2020-08-18T14:24:05Z">
+    <test name="Default test" duration-ms="81370" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:51Z">
+      <class name="com.udemydemo.navtiveapps.SwipeAction">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.udemydemo.navtiveapps.SwipeAction@553f17c]" name="launchApp" is-config="true" duration-ms="70728" started-at="2020-08-19T14:31:29Z" finished-at="2020-08-19T14:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="test_add()[pri:0, instance:com.calculator.AppiumWithJavaLearning.CalculatorTest@4667ae56]" name="test_add" duration-ms="3108" started-at="2020-08-18T14:24:05Z" finished-at="2020-08-18T14:24:08Z">
+        <test-method status="PASS" signature="test_swipe()[pri:0, instance:com.udemydemo.navtiveapps.SwipeAction@553f17c]" name="test_swipe" duration-ms="10522" started-at="2020-08-19T14:32:40Z" finished-at="2020-08-19T14:32:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_add -->
-        <test-method status="FAIL" signature="closeApp()[pri:0, instance:com.calculator.AppiumWithJavaLearning.CalculatorTest@4667ae56]" name="closeApp" is-config="true" duration-ms="60230" started-at="2020-08-18T14:24:08Z" finished-at="2020-08-18T14:25:08Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Request failed with status code 404
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VAMPIREPC', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., databaseEnabled: false, desired: {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., deviceName: Galaxy On5, platformName: android, platformVersion: 6.0.1, udid: 420053709b9133a5}, deviceApiLevel: 23, deviceManufacturer: samsung, deviceModel: SM-G550FY, deviceName: 420053709b9133a5, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: 420053709b9133a5, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 6.0.1, statBarHeight: 48, takesScreenshot: true, udid: 420053709b9133a5, viewportRect: {height: 1232, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 9a205c97-00e9-4d22-aaff-8504618c52c6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Request failed with status code 404
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VAMPIREPC', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., databaseEnabled: false, desired: {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., deviceName: Galaxy On5, platformName: android, platformVersion: 6.0.1, udid: 420053709b9133a5}, deviceApiLevel: 23, deviceManufacturer: samsung, deviceModel: SM-G550FY, deviceName: 420053709b9133a5, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: 420053709b9133a5, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 6.0.1, statBarHeight: 48, takesScreenshot: true, udid: 420053709b9133a5, viewportRect: {height: 1232, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 9a205c97-00e9-4d22-aaff-8504618c52c6
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.calculator.AppiumWithJavaLearning.CalculatorTest.closeApp(CalculatorTest.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.afterRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:509)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.calculator.AppiumWithJavaLearning.CalculatorTest -->
+        </test-method> <!-- test_swipe -->
+      </class> <!-- com.udemydemo.navtiveapps.SwipeAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
