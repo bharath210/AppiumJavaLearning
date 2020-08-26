@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.udemydemo.navtiveapps.ScrollAction">
+      <class name="com.udemydemo.ecommerceapp.TestCase3">
         <methods>
-          <include name="test_scroll"/>
+          <include name="test_SearchProduct"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.udemydemo.navtiveapps.ScrollAction -->
+      </class> <!-- com.udemydemo.ecommerceapp.TestCase3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
